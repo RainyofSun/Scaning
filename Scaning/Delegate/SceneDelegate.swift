@@ -10,13 +10,17 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    private var _tabbarController: LRTabbarViewController?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        // Log 日志
+        Log.shared.registe(with: .other)
+        // 设置跟控制器
+        setWindowRootViewController()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -50,3 +54,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+// MARK: Private Methods
+private extension SceneDelegate {
+    // 设置根控制器
+    func setWindowRootViewController() {
+        if let _tab = self._tabbarController {
+            self.window?.rootViewController = _tab
+        } else {
+            self.window?.backgroundColor = .white
+            self._tabbarController = LRTabbarViewController()
+            self.window?.rootViewController = self._tabbarController
+            self.window?.makeKeyAndVisible()
+        }
+    }
+}

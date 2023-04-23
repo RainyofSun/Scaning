@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		766770E7E15E4ED877C47944 /* Pods_Scaning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8921AC8FA9294DFBED780F8 /* Pods_Scaning.framework */; };
 		7BCE2D7529F51BA800B16495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7429F51BA800B16495 /* AppDelegate.swift */; };
 		7BCE2D7729F51BA800B16495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7629F51BA800B16495 /* SceneDelegate.swift */; };
-		7BCE2D7929F51BA800B16495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7829F51BA800B16495 /* ViewController.swift */; };
 		7BCE2D7C29F51BA800B16495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7A29F51BA800B16495 /* Main.storyboard */; };
 		7BCE2D7E29F51BA900B16495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7D29F51BA900B16495 /* Assets.xcassets */; };
 		7BCE2D8129F51BA900B16495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7F29F51BA900B16495 /* LaunchScreen.storyboard */; };
+		7BCE2D8C29F51CCA00B16495 /* LRRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D8B29F51CCA00B16495 /* LRRootViewController.swift */; };
+		7BCE2D9229F51D6800B16495 /* LRSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9129F51D6800B16495 /* LRSettingViewController.swift */; };
+		7BCE2D9429F51D7600B16495 /* LRScaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9329F51D7600B16495 /* LRScaningViewController.swift */; };
+		7BCE2D9A29F51DD800B16495 /* LRTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9929F51DD800B16495 /* LRTabbarViewController.swift */; };
+		7BCE2D9D29F51DF500B16495 /* LRNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9C29F51DF500B16495 /* LRNavigationViewController.swift */; };
+		7BCE2DA229F5271700B16495 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DA029F5271700B16495 /* Log.swift */; };
+		7BCE2DA329F5271700B16495 /* LRDDLogFileSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DA129F5271700B16495 /* LRDDLogFileSub.swift */; };
+		7BCE2DA829F52D5400B16495 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DA629F52D5400B16495 /* UIColor+Extension.swift */; };
+		7BCE2DAC29F52F6F00B16495 /* LRConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DAB29F52F6F00B16495 /* LRConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42E43B63414A07771B4E36B1 /* Pods-Scaning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaning.release.xcconfig"; path = "Target Support Files/Pods-Scaning/Pods-Scaning.release.xcconfig"; sourceTree = "<group>"; };
 		7BCE2D7129F51BA800B16495 /* Scaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scaning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCE2D7429F51BA800B16495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BCE2D7629F51BA800B16495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7BCE2D7829F51BA800B16495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7BCE2D7B29F51BA800B16495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BCE2D7D29F51BA900B16495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BCE2D8029F51BA900B16495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BCE2D8229F51BA900B16495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCE2D8B29F51CCA00B16495 /* LRRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRRootViewController.swift; sourceTree = "<group>"; };
+		7BCE2D9129F51D6800B16495 /* LRSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRSettingViewController.swift; sourceTree = "<group>"; };
+		7BCE2D9329F51D7600B16495 /* LRScaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRScaningViewController.swift; sourceTree = "<group>"; };
+		7BCE2D9929F51DD800B16495 /* LRTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRTabbarViewController.swift; sourceTree = "<group>"; };
+		7BCE2D9C29F51DF500B16495 /* LRNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRNavigationViewController.swift; sourceTree = "<group>"; };
+		7BCE2DA029F5271700B16495 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		7BCE2DA129F5271700B16495 /* LRDDLogFileSub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRDDLogFileSub.swift; sourceTree = "<group>"; };
+		7BCE2DA629F52D5400B16495 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		7BCE2DAB29F52F6F00B16495 /* LRConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRConstant.swift; sourceTree = "<group>"; };
+		7FA41F9C2BFA195BF25EAE00 /* Pods-Scaning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaning.debug.xcconfig"; path = "Target Support Files/Pods-Scaning/Pods-Scaning.debug.xcconfig"; sourceTree = "<group>"; };
+		C8921AC8FA9294DFBED780F8 /* Pods_Scaning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766770E7E15E4ED877C47944 /* Pods_Scaning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E83D2BC2B233EAFE3738D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8921AC8FA9294DFBED780F8 /* Pods_Scaning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7BCE2D6829F51BA700B16495 = {
 			isa = PBXGroup;
 			children = (
 				7BCE2D7329F51BA800B16495 /* Scaning */,
 				7BCE2D7229F51BA800B16495 /* Products */,
+				8954654E06945BB823362BA3 /* Pods */,
+				1E83D2BC2B233EAFE3738D68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,160 @@
 		7BCE2D7329F51BA800B16495 /* Scaning */ = {
 			isa = PBXGroup;
 			children = (
+				7BCE2DAA29F52F5E00B16495 /* Constant */,
+				7BCE2DA429F52D4900B16495 /* Extension */,
+				7BCE2D9E29F5270E00B16495 /* Tool */,
+				7BCE2D8829F51C1500B16495 /* Delegate */,
+				7BCE2D9529F51D9600B16495 /* BaseWidget */,
+				7BCE2D8A29F51CA200B16495 /* Modules */,
+				7BCE2D8929F51C3500B16495 /* APPResource */,
+			);
+			path = Scaning;
+			sourceTree = "<group>";
+		};
+		7BCE2D8829F51C1500B16495 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
 				7BCE2D7429F51BA800B16495 /* AppDelegate.swift */,
 				7BCE2D7629F51BA800B16495 /* SceneDelegate.swift */,
-				7BCE2D7829F51BA800B16495 /* ViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		7BCE2D8929F51C3500B16495 /* APPResource */ = {
+			isa = PBXGroup;
+			children = (
 				7BCE2D7A29F51BA800B16495 /* Main.storyboard */,
 				7BCE2D7D29F51BA900B16495 /* Assets.xcassets */,
 				7BCE2D7F29F51BA900B16495 /* LaunchScreen.storyboard */,
 				7BCE2D8229F51BA900B16495 /* Info.plist */,
 			);
-			path = Scaning;
+			path = APPResource;
+			sourceTree = "<group>";
+		};
+		7BCE2D8A29F51CA200B16495 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D8E29F51D4400B16495 /* SettingModules */,
+				7BCE2D8D29F51D3100B16495 /* ScaningModules */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7BCE2D8D29F51D3100B16495 /* ScaningModules */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D8F29F51D4E00B16495 /* VC */,
+			);
+			path = ScaningModules;
+			sourceTree = "<group>";
+		};
+		7BCE2D8E29F51D4400B16495 /* SettingModules */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D9029F51D5700B16495 /* VC */,
+			);
+			path = SettingModules;
+			sourceTree = "<group>";
+		};
+		7BCE2D8F29F51D4E00B16495 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D9329F51D7600B16495 /* LRScaningViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7BCE2D9029F51D5700B16495 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D9129F51D6800B16495 /* LRSettingViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7BCE2D9529F51D9600B16495 /* BaseWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D9B29F51DDD00B16495 /* NavigationController */,
+				7BCE2D9829F51DB700B16495 /* TabbarController */,
+				7BCE2D9629F51DA400B16495 /* RootVC */,
+			);
+			path = BaseWidget;
+			sourceTree = "<group>";
+		};
+		7BCE2D9629F51DA400B16495 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D8B29F51CCA00B16495 /* LRRootViewController.swift */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		7BCE2D9829F51DB700B16495 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D9929F51DD800B16495 /* LRTabbarViewController.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		7BCE2D9B29F51DDD00B16495 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D9C29F51DF500B16495 /* LRNavigationViewController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		7BCE2D9E29F5270E00B16495 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2D9F29F5271700B16495 /* Log */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7BCE2D9F29F5271700B16495 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2DA029F5271700B16495 /* Log.swift */,
+				7BCE2DA129F5271700B16495 /* LRDDLogFileSub.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		7BCE2DA429F52D4900B16495 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2DA529F52D5400B16495 /* UIColor */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7BCE2DA529F52D5400B16495 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2DA629F52D5400B16495 /* UIColor+Extension.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		7BCE2DAA29F52F5E00B16495 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2DAB29F52F6F00B16495 /* LRConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8954654E06945BB823362BA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA41F9C2BFA195BF25EAE00 /* Pods-Scaning.debug.xcconfig */,
+				42E43B63414A07771B4E36B1 /* Pods-Scaning.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BCE2D8529F51BA900B16495 /* Build configuration list for PBXNativeTarget "Scaning" */;
 			buildPhases = (
+				6E07F843C79D6E92DFB29BB5 /* [CP] Check Pods Manifest.lock */,
 				7BCE2D6D29F51BA800B16495 /* Sources */,
 				7BCE2D6E29F51BA800B16495 /* Frameworks */,
 				7BCE2D6F29F51BA800B16495 /* Resources */,
+				886331DF590451986BDFF555 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,6 +272,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = LR;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
@@ -133,14 +312,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E07F843C79D6E92DFB29BB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scaning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886331DF590451986BDFF555 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scaning/Pods-Scaning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scaning/Pods-Scaning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scaning/Pods-Scaning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BCE2D6D29F51BA800B16495 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BCE2D7929F51BA800B16495 /* ViewController.swift in Sources */,
+				7BCE2D9A29F51DD800B16495 /* LRTabbarViewController.swift in Sources */,
 				7BCE2D7529F51BA800B16495 /* AppDelegate.swift in Sources */,
 				7BCE2D7729F51BA800B16495 /* SceneDelegate.swift in Sources */,
+				7BCE2D9429F51D7600B16495 /* LRScaningViewController.swift in Sources */,
+				7BCE2DA329F5271700B16495 /* LRDDLogFileSub.swift in Sources */,
+				7BCE2D8C29F51CCA00B16495 /* LRRootViewController.swift in Sources */,
+				7BCE2D9229F51D6800B16495 /* LRSettingViewController.swift in Sources */,
+				7BCE2DA229F5271700B16495 /* Log.swift in Sources */,
+				7BCE2D9D29F51DF500B16495 /* LRNavigationViewController.swift in Sources */,
+				7BCE2DA829F52D5400B16495 /* UIColor+Extension.swift in Sources */,
+				7BCE2DAC29F52F6F00B16495 /* LRConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +511,7 @@
 		};
 		7BCE2D8629F51BA900B16495 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA41F9C2BFA195BF25EAE00 /* Pods-Scaning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +519,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8HR7KN9336;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Scaning/Info.plist;
+				INFOPLIST_FILE = Scaning/APPResource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scaning;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +542,7 @@
 		};
 		7BCE2D8729F51BA900B16495 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E43B63414A07771B4E36B1 /* Pods-Scaning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +550,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8HR7KN9336;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Scaning/Info.plist;
+				INFOPLIST_FILE = Scaning/APPResource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scaning;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
