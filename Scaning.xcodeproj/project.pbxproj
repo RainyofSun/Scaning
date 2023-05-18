@@ -8,24 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		766770E7E15E4ED877C47944 /* Pods_Scaning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8921AC8FA9294DFBED780F8 /* Pods_Scaning.framework */; };
+		7BBEB3362A1601AF003F5220 /* LRScaningScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEB3352A1601AF003F5220 /* LRScaningScrollView.swift */; };
+		7BBEB3392A160428003F5220 /* LRSafeInset+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEB3382A160428003F5220 /* LRSafeInset+Window.swift */; };
+		7BBEB33C2A1605D6003F5220 /* LRViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEB33B2A1605D6003F5220 /* LRViewController+extension.swift */; };
+		7BBEB33F2A1606D1003F5220 /* LRScaningEnumFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEB33E2A1606D1003F5220 /* LRScaningEnumFile.swift */; };
+		7BBEB3412A161293003F5220 /* LRScaningCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEB3402A161293003F5220 /* LRScaningCaptureView.swift */; };
+		7BBEB3462A161740003F5220 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BBEB3482A161740003F5220 /* Localizable.strings */; };
+		7BBEB34E2A1617FE003F5220 /* LRLocalizableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEB34D2A1617FE003F5220 /* LRLocalizableManager.swift */; };
 		7BCE2D7529F51BA800B16495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7429F51BA800B16495 /* AppDelegate.swift */; };
 		7BCE2D7729F51BA800B16495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7629F51BA800B16495 /* SceneDelegate.swift */; };
 		7BCE2D7C29F51BA800B16495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7A29F51BA800B16495 /* Main.storyboard */; };
 		7BCE2D7E29F51BA900B16495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7D29F51BA900B16495 /* Assets.xcassets */; };
 		7BCE2D8129F51BA900B16495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE2D7F29F51BA900B16495 /* LaunchScreen.storyboard */; };
 		7BCE2D8C29F51CCA00B16495 /* LRRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D8B29F51CCA00B16495 /* LRRootViewController.swift */; };
-		7BCE2D9229F51D6800B16495 /* LRSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9129F51D6800B16495 /* LRSettingViewController.swift */; };
 		7BCE2D9429F51D7600B16495 /* LRScaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9329F51D7600B16495 /* LRScaningViewController.swift */; };
-		7BCE2D9A29F51DD800B16495 /* LRTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9929F51DD800B16495 /* LRTabbarViewController.swift */; };
 		7BCE2D9D29F51DF500B16495 /* LRNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D9C29F51DF500B16495 /* LRNavigationViewController.swift */; };
 		7BCE2DA229F5271700B16495 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DA029F5271700B16495 /* Log.swift */; };
 		7BCE2DA329F5271700B16495 /* LRDDLogFileSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DA129F5271700B16495 /* LRDDLogFileSub.swift */; };
 		7BCE2DA829F52D5400B16495 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DA629F52D5400B16495 /* UIColor+Extension.swift */; };
 		7BCE2DAC29F52F6F00B16495 /* LRConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DAB29F52F6F00B16495 /* LRConstant.swift */; };
+		7BCE2DB129F5373600B16495 /* LRVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DAE29F5373600B16495 /* LRVideoPlayer.swift */; };
+		7BCE2DB229F5373600B16495 /* LRLoopVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DAF29F5373600B16495 /* LRLoopVideoPlayer.swift */; };
+		7BCE2DB329F5373600B16495 /* LRVideoPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DB029F5373600B16495 /* LRVideoPlayView.swift */; };
+		7BCE2DB729F5377E00B16495 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DB529F5377E00B16495 /* Int+Extension.swift */; };
+		7BCE2DB829F5377E00B16495 /* CMTime+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DB629F5377E00B16495 /* CMTime+Extension.swift */; };
+		7BCE2DBB29F5390C00B16495 /* LRScaningPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2DBA29F5390C00B16495 /* LRScaningPlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42E43B63414A07771B4E36B1 /* Pods-Scaning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaning.release.xcconfig"; path = "Target Support Files/Pods-Scaning/Pods-Scaning.release.xcconfig"; sourceTree = "<group>"; };
+		7BBEB3352A1601AF003F5220 /* LRScaningScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRScaningScrollView.swift; sourceTree = "<group>"; };
+		7BBEB3382A160428003F5220 /* LRSafeInset+Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LRSafeInset+Window.swift"; sourceTree = "<group>"; };
+		7BBEB33B2A1605D6003F5220 /* LRViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LRViewController+extension.swift"; sourceTree = "<group>"; };
+		7BBEB33E2A1606D1003F5220 /* LRScaningEnumFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRScaningEnumFile.swift; sourceTree = "<group>"; };
+		7BBEB3402A161293003F5220 /* LRScaningCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRScaningCaptureView.swift; sourceTree = "<group>"; };
+		7BBEB3472A161740003F5220 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BBEB3492A161759003F5220 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7BBEB34A2A161759003F5220 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7BBEB34B2A16175A003F5220 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7BBEB34D2A1617FE003F5220 /* LRLocalizableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRLocalizableManager.swift; sourceTree = "<group>"; };
 		7BCE2D7129F51BA800B16495 /* Scaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scaning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCE2D7429F51BA800B16495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BCE2D7629F51BA800B16495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,14 +55,18 @@
 		7BCE2D8029F51BA900B16495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BCE2D8229F51BA900B16495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BCE2D8B29F51CCA00B16495 /* LRRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRRootViewController.swift; sourceTree = "<group>"; };
-		7BCE2D9129F51D6800B16495 /* LRSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRSettingViewController.swift; sourceTree = "<group>"; };
 		7BCE2D9329F51D7600B16495 /* LRScaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRScaningViewController.swift; sourceTree = "<group>"; };
-		7BCE2D9929F51DD800B16495 /* LRTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRTabbarViewController.swift; sourceTree = "<group>"; };
 		7BCE2D9C29F51DF500B16495 /* LRNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRNavigationViewController.swift; sourceTree = "<group>"; };
 		7BCE2DA029F5271700B16495 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		7BCE2DA129F5271700B16495 /* LRDDLogFileSub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRDDLogFileSub.swift; sourceTree = "<group>"; };
 		7BCE2DA629F52D5400B16495 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7BCE2DAB29F52F6F00B16495 /* LRConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRConstant.swift; sourceTree = "<group>"; };
+		7BCE2DAE29F5373600B16495 /* LRVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRVideoPlayer.swift; sourceTree = "<group>"; };
+		7BCE2DAF29F5373600B16495 /* LRLoopVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRLoopVideoPlayer.swift; sourceTree = "<group>"; };
+		7BCE2DB029F5373600B16495 /* LRVideoPlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRVideoPlayView.swift; sourceTree = "<group>"; };
+		7BCE2DB529F5377E00B16495 /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		7BCE2DB629F5377E00B16495 /* CMTime+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMTime+Extension.swift"; sourceTree = "<group>"; };
+		7BCE2DBA29F5390C00B16495 /* LRScaningPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRScaningPlayView.swift; sourceTree = "<group>"; };
 		7FA41F9C2BFA195BF25EAE00 /* Pods-Scaning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaning.debug.xcconfig"; path = "Target Support Files/Pods-Scaning/Pods-Scaning.debug.xcconfig"; sourceTree = "<group>"; };
 		C8921AC8FA9294DFBED780F8 /* Pods_Scaning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scaning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,6 +89,38 @@
 				C8921AC8FA9294DFBED780F8 /* Pods_Scaning.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BBEB3372A160413003F5220 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				7BBEB3382A160428003F5220 /* LRSafeInset+Window.swift */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		7BBEB33A2A1605B9003F5220 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7BBEB33B2A1605D6003F5220 /* LRViewController+extension.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		7BBEB33D2A1606BC003F5220 /* EnumFile */ = {
+			isa = PBXGroup;
+			children = (
+				7BBEB33E2A1606D1003F5220 /* LRScaningEnumFile.swift */,
+			);
+			path = EnumFile;
+			sourceTree = "<group>";
+		};
+		7BBEB34C2A1617FE003F5220 /* LocalizableTool */ = {
+			isa = PBXGroup;
+			children = (
+				7BBEB34D2A1617FE003F5220 /* LRLocalizableManager.swift */,
+			);
+			path = LocalizableTool;
 			sourceTree = "<group>";
 		};
 		7BCE2D6829F51BA700B16495 = {
@@ -114,6 +171,7 @@
 				7BCE2D7D29F51BA900B16495 /* Assets.xcassets */,
 				7BCE2D7F29F51BA900B16495 /* LaunchScreen.storyboard */,
 				7BCE2D8229F51BA900B16495 /* Info.plist */,
+				7BBEB3482A161740003F5220 /* Localizable.strings */,
 			);
 			path = APPResource;
 			sourceTree = "<group>";
@@ -121,7 +179,6 @@
 		7BCE2D8A29F51CA200B16495 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				7BCE2D8E29F51D4400B16495 /* SettingModules */,
 				7BCE2D8D29F51D3100B16495 /* ScaningModules */,
 			);
 			path = Modules;
@@ -130,17 +187,11 @@
 		7BCE2D8D29F51D3100B16495 /* ScaningModules */ = {
 			isa = PBXGroup;
 			children = (
+				7BBEB33D2A1606BC003F5220 /* EnumFile */,
+				7BCE2DB929F538F900B16495 /* View */,
 				7BCE2D8F29F51D4E00B16495 /* VC */,
 			);
 			path = ScaningModules;
-			sourceTree = "<group>";
-		};
-		7BCE2D8E29F51D4400B16495 /* SettingModules */ = {
-			isa = PBXGroup;
-			children = (
-				7BCE2D9029F51D5700B16495 /* VC */,
-			);
-			path = SettingModules;
 			sourceTree = "<group>";
 		};
 		7BCE2D8F29F51D4E00B16495 /* VC */ = {
@@ -151,19 +202,10 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
-		7BCE2D9029F51D5700B16495 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				7BCE2D9129F51D6800B16495 /* LRSettingViewController.swift */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
 		7BCE2D9529F51D9600B16495 /* BaseWidget */ = {
 			isa = PBXGroup;
 			children = (
 				7BCE2D9B29F51DDD00B16495 /* NavigationController */,
-				7BCE2D9829F51DB700B16495 /* TabbarController */,
 				7BCE2D9629F51DA400B16495 /* RootVC */,
 			);
 			path = BaseWidget;
@@ -177,14 +219,6 @@
 			path = RootVC;
 			sourceTree = "<group>";
 		};
-		7BCE2D9829F51DB700B16495 /* TabbarController */ = {
-			isa = PBXGroup;
-			children = (
-				7BCE2D9929F51DD800B16495 /* LRTabbarViewController.swift */,
-			);
-			path = TabbarController;
-			sourceTree = "<group>";
-		};
 		7BCE2D9B29F51DDD00B16495 /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +230,9 @@
 		7BCE2D9E29F5270E00B16495 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				7BBEB34C2A1617FE003F5220 /* LocalizableTool */,
 				7BCE2D9F29F5271700B16495 /* Log */,
+				7BCE2DAD29F5373600B16495 /* VideoPlayer */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -213,6 +249,9 @@
 		7BCE2DA429F52D4900B16495 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7BBEB33A2A1605B9003F5220 /* UIViewController */,
+				7BBEB3372A160413003F5220 /* UIWindow */,
+				7BCE2DB429F5377E00B16495 /* Int */,
 				7BCE2DA529F52D5400B16495 /* UIColor */,
 			);
 			path = Extension;
@@ -232,6 +271,35 @@
 				7BCE2DAB29F52F6F00B16495 /* LRConstant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		7BCE2DAD29F5373600B16495 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2DAE29F5373600B16495 /* LRVideoPlayer.swift */,
+				7BCE2DAF29F5373600B16495 /* LRLoopVideoPlayer.swift */,
+				7BCE2DB029F5373600B16495 /* LRVideoPlayView.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		7BCE2DB429F5377E00B16495 /* Int */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2DB529F5377E00B16495 /* Int+Extension.swift */,
+				7BCE2DB629F5377E00B16495 /* CMTime+Extension.swift */,
+			);
+			path = Int;
+			sourceTree = "<group>";
+		};
+		7BCE2DB929F538F900B16495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE2DBA29F5390C00B16495 /* LRScaningPlayView.swift */,
+				7BBEB3402A161293003F5220 /* LRScaningCaptureView.swift */,
+				7BBEB3352A1601AF003F5220 /* LRScaningScrollView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8954654E06945BB823362BA3 /* Pods */ = {
@@ -288,6 +356,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 7BCE2D6829F51BA700B16495;
 			productRefGroup = 7BCE2D7229F51BA800B16495 /* Products */;
@@ -305,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BCE2D8129F51BA900B16495 /* LaunchScreen.storyboard in Resources */,
+				7BBEB3462A161740003F5220 /* Localizable.strings in Resources */,
 				7BCE2D7E29F51BA900B16495 /* Assets.xcassets in Resources */,
 				7BCE2D7C29F51BA800B16495 /* Main.storyboard in Resources */,
 			);
@@ -359,15 +429,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BCE2D9A29F51DD800B16495 /* LRTabbarViewController.swift in Sources */,
+				7BBEB3392A160428003F5220 /* LRSafeInset+Window.swift in Sources */,
+				7BBEB34E2A1617FE003F5220 /* LRLocalizableManager.swift in Sources */,
+				7BBEB3412A161293003F5220 /* LRScaningCaptureView.swift in Sources */,
+				7BCE2DB729F5377E00B16495 /* Int+Extension.swift in Sources */,
+				7BBEB33F2A1606D1003F5220 /* LRScaningEnumFile.swift in Sources */,
+				7BCE2DB229F5373600B16495 /* LRLoopVideoPlayer.swift in Sources */,
 				7BCE2D7529F51BA800B16495 /* AppDelegate.swift in Sources */,
 				7BCE2D7729F51BA800B16495 /* SceneDelegate.swift in Sources */,
+				7BCE2DB329F5373600B16495 /* LRVideoPlayView.swift in Sources */,
 				7BCE2D9429F51D7600B16495 /* LRScaningViewController.swift in Sources */,
 				7BCE2DA329F5271700B16495 /* LRDDLogFileSub.swift in Sources */,
+				7BCE2DB829F5377E00B16495 /* CMTime+Extension.swift in Sources */,
 				7BCE2D8C29F51CCA00B16495 /* LRRootViewController.swift in Sources */,
-				7BCE2D9229F51D6800B16495 /* LRSettingViewController.swift in Sources */,
+				7BCE2DBB29F5390C00B16495 /* LRScaningPlayView.swift in Sources */,
+				7BBEB33C2A1605D6003F5220 /* LRViewController+extension.swift in Sources */,
 				7BCE2DA229F5271700B16495 /* Log.swift in Sources */,
+				7BCE2DB129F5373600B16495 /* LRVideoPlayer.swift in Sources */,
 				7BCE2D9D29F51DF500B16495 /* LRNavigationViewController.swift in Sources */,
+				7BBEB3362A1601AF003F5220 /* LRScaningScrollView.swift in Sources */,
 				7BCE2DA829F52D5400B16495 /* UIColor+Extension.swift in Sources */,
 				7BCE2DAC29F52F6F00B16495 /* LRConstant.swift in Sources */,
 			);
@@ -376,10 +456,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7BBEB3482A161740003F5220 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BBEB3472A161740003F5220 /* en */,
+				7BBEB34B2A16175A003F5220 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7BCE2D7A29F51BA800B16495 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7BCE2D7B29F51BA800B16495 /* Base */,
+				7BBEB3492A161759003F5220 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -388,6 +478,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7BCE2D8029F51BA900B16495 /* Base */,
+				7BBEB34A2A161759003F5220 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -399,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -459,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

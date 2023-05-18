@@ -6,23 +6,49 @@
 //
 
 import UIKit
+import SnapKit
 
 class LRScaningViewController: UIViewController {
     
+    private lazy var playingView: LRScaningPlayView = {
+        return LRScaningPlayView(frame: CGRectZero)
+    }()
+    
+    private lazy var captureView: LRScaningCaptureView = {
+        return LRScaningCaptureView(frame: CGRectZero)
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        super.touchesBegan(touches, with: event)
-        let tempVC = UIViewController()
-        tempVC.view.backgroundColor = .orange
-        self.navigationController?.pushViewController(tempVC, animated: true)
+        loadScaningViews()
+        layoutScaningViews()
     }
     
     deinit {
         deallocPrint()
     }
     
+}
+
+// MARK: Private Methods
+private extension LRScaningViewController {
+    func loadScaningViews() {
+        self.view.backgroundColor = .black
+        self.view.addSubview(playingView)
+        self.view.addSubview(captureView)
+    }
+    
+    func layoutScaningViews() {
+
+        playingView.snp.makeConstraints { make in
+            make.horizontalEdges.top.equalToSuperview()
+            make.bottom.equalTo(captureView.snp.top)
+        }
+        
+        captureView.snp.makeConstraints { make in
+            make.horizontalEdges.equalToSuperview()
+            make.height.equalToSuperview().multipliedBy(0.18)
+            make.bottom.equalToSuperview().offset(-UIWindow.safeAreaBottom())
+        }
+    }
 }

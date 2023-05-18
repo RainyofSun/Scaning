@@ -10,7 +10,6 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    private var _tabbarController: LRTabbarViewController?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -58,13 +57,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 private extension SceneDelegate {
     // 设置根控制器
     func setWindowRootViewController() {
-        if let _tab = self._tabbarController {
-            self.window?.rootViewController = _tab
-        } else {
-            self.window?.backgroundColor = .white
-            self._tabbarController = LRTabbarViewController()
-            self.window?.rootViewController = self._tabbarController
-            self.window?.makeKeyAndVisible()
-        }
+        self.window?.backgroundColor = .black
+        let navController: LRNavigationViewController = LRNavigationViewController(rootViewController: LRScaningViewController())
+        navController.setNavigationBarHidden(true, animated: false)
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
     }
 }
